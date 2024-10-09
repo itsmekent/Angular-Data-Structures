@@ -1,0 +1,12 @@
+.gray-button {
+    background-color: transparent;
+    border: 1px solid #f5a53c; 
+    color: #0a0a0a; 
+    transition: background-color 0.3s, color 0.3s; 
+  }
+  
+  .minimalist-button:hover {
+    background-color: #080808;
+    color: #f5a53c; 
+  }
+  

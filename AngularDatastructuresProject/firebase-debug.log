@@ -1,0 +1,56 @@
+[debug] [2024-10-09T14:28:27.772Z] ----------------------------------------------------------------------
+[debug] [2024-10-09T14:28:32.697Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\1otary\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-10-09T14:28:32.699Z] CLI Version:   13.22.0
+[debug] [2024-10-09T14:28:32.711Z] Platform:      win32
+[debug] [2024-10-09T14:28:32.711Z] Node Version:  v20.17.0
+[debug] [2024-10-09T14:28:32.711Z] Time:          Wed Oct 09 2024 22:28:32 GMT+0800 (Irkutsk Standard Time)
+[debug] [2024-10-09T14:28:32.712Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-09T14:28:33.142Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-09T14:28:33.144Z] > authorizing via signed-in user (nmendoza2383@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\1otary\Documents\GitHub\AngularDataStructuresProject-main\AngularDatastructuresProject
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-10-09T14:30:07.079Z] Checked if tokens are valid: false, expires at: 1728484889551
+[debug] [2024-10-09T14:30:07.080Z] Checked if tokens are valid: false, expires at: 1728484889551
+[debug] [2024-10-09T14:30:07.081Z] > refreshing access token with scopes: []
+[debug] [2024-10-09T14:30:07.087Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-10-09T14:30:07.087Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-10-09T14:30:08.135Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-10-09T14:30:08.136Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-10-09T14:30:08.792Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-10-09T14:30:09.443Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-10-09T14:30:09.444Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project taay-act15 (Taay-Act15) 
+[info] 
+=== Hosting Setup
+[debug] [2024-10-09T14:30:15.568Z] Checked if tokens are valid: true, expires at: 1728487807136
+[debug] [2024-10-09T14:30:15.568Z] Checked if tokens are valid: true, expires at: 1728487807136
+[debug] [2024-10-09T14:30:15.569Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/taay-act15 [none]
+[debug] [2024-10-09T14:30:15.980Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/taay-act15 200
+[debug] [2024-10-09T14:30:15.981Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/taay-act15 {"projectId":"taay-act15","projectNumber":"834628782783","displayName":"Taay-Act15","name":"projects/taay-act15","resources":{"hostingSite":"taay-act15"},"state":"ACTIVE","etag":"1_1a917282-4e03-4622-ad69-d2a02e655d67"}
+[debug] [2024-10-09T14:30:47.151Z] SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at findDependency (C:\Users\1otary\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\utils.js:188:23)
+    at discover (C:\Users\1otary\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\vite\index.js:44:71)
+    at C:\Users\1otary\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\vite\index.js:36:69
+    at discover (C:\Users\1otary\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\index.js:47:38)
+    at async doSetup (C:\Users\1otary\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\index.js:54:11)
+    at async init (C:\Users\1otary\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:41:9)
+[error] 
+[error] Error: An unexpected error has occurred.
